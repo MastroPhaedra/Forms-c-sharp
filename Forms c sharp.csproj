@@ -99,11 +99,11 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="AppData\Database_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <DependentUpon>Database.mdf</DependentUpon>
     </Content>
     <Content Include="Images\meme1.png" />
-    <Content Include="Images\meme 2.jpg" />
+    <Content Include="Images\meme2.jpg" />
     <Content Include="Images\meme3.jpg" />
     <Content Include="Images\meme4.png" />
   </ItemGroup>
